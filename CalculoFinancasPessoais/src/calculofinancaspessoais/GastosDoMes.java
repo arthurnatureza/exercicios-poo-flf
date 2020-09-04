@@ -12,7 +12,10 @@ public class GastosDoMes {
         int gastoTransporte = 500;
         int gastoLazer = 400;
         int gastoTotal = gastosAlimentacao + gastoSaude + gastoTransporte + gastoLazer;
-        System.out.printf("Gasto total do mês: %d \n", gastoTotal);
+        System.out.printf("Gasto total do mês: R$%d \n", gastoTotal);
+        
+        float mediaDeGastos = (gastoTotal/4);
+        System.out.printf("Média dos Gastos: R$%.2f \n", mediaDeGastos);
         
     }
     
